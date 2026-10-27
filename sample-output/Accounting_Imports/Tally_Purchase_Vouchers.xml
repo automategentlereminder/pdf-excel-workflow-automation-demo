@@ -1,0 +1,1527 @@
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>Vouchers</REPORTNAME>
+        <STATICVARIABLES>
+          <SVCURRENTCOMPANY>Gentle Reminder</SVCURRENTCOMPANY>
+        </STATICVARIABLES>
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250402</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/25-26/0013</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/25-26/0013 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>18953.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-16550.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-2403.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250604</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/25-26/0025</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/25-26/0025 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>65253.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-55840.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-9412.80</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250803</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/25-26/0032</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/25-26/0032 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>38114.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-32300.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5814.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251013</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/25-26/0037</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/25-26/0037 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>29048.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-24800.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4248.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251206</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/25-26/0044</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/25-26/0044 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>60003.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-50850.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-9153.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260202</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/25-26/0055</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/25-26/0055 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>40051.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-34560.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5491.20</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260414</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/26-27/0009</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/26-27/0009 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>62871.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-53850.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-9021.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260606</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/26-27/0014</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/26-27/0014 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>45608.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-39310.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-6298.20</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260808</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/26-27/0024</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/26-27/0024 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>69931.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-59540.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-10390.80</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261005</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>ACM/26-27/0033</REFERENCE>
+            <PARTYLEDGERNAME>ACME CORPORATION</PARTYLEDGERNAME>
+            <PARTYNAME>ACME CORPORATION</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice ACM/26-27/0033 from ACME CORPORATION</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>ACME CORPORATION</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>67519.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Office Supplies &amp; Stationery</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-57740.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-9778.80</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250403</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1046</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1046 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>66552.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-56400.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5076.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5076.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250607</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1059</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1059 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>43658.82</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-36999.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3329.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3329.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250805</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1072</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1072 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>35634.82</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-30199.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-2717.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-2717.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251013</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1083</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1083 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>68202.82</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-57799.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5201.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5201.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251204</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1096</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1096 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>41298.82</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-34999.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3149.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3149.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260213</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1112</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1112 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>43540.82</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-36899.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3320.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3320.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260408</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1122</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1122 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>62068.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-52600.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4734.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4734.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260611</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1134</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1134 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>46018.82</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-38999.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3509.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3509.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260808</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1148</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1148 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>44484.82</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-37699.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3392.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3392.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261007</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>GX1160</REFERENCE>
+            <PARTYLEDGERNAME>Globex Corporation</PARTYLEDGERNAME>
+            <PARTYNAME>Globex Corporation</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice GX1160 from Globex Corporation</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Globex Corporation</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>56874.82</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Rent &amp; Shared Workspace</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-48199.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input CGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input CGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4337.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input SGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input SGST 9%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4337.91</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250405</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2025-04-0085</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2025-04-0085 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>171808.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-145600.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-26208.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250603</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2025-06-0090</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2025-06-0090 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>143370.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-121500.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-21870.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250812</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2025-08-0099</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2025-08-0099 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>150332.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-127400.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-22932.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251010</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2025-10-0109</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2025-10-0109 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>84960.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-72000.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-12960.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251203</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2025-12-0119</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2025-12-0119 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>124372.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-105400.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-18972.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260206</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2026-02-0125</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2026-02-0125 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>213934.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-181300.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-32634.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260408</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2026-04-0131</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2026-04-0131 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>130036.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-110200.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-19836.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260613</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2026-06-0134</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2026-06-0134 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>140538.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-119100.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-21438.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260809</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2026-08-0143</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2026-08-0143 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>179124.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-151800.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-27324.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261011</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INI-2026-10-0147</REFERENCE>
+            <PARTYLEDGERNAME>Initech</PARTYLEDGERNAME>
+            <PARTYNAME>Initech</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INI-2026-10-0147 from Initech</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Initech</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>94164.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Software Licensing &amp; IT Support</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-79800.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-14364.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250402</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00452</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00452 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>353882.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-299900.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-53982.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250601</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00467</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00467 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>349988.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-296600.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-53388.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250802</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00483</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00483 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>306446.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-259700.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-46746.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251011</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00493</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00493 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>214052.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-181400.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-32652.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251211</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00503</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00503 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>197178.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-167100.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-30078.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260210</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00528</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00528 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>163194.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-138300.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-24894.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260412</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00551</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00551 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>372762.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-315900.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-56862.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260605</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00565</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00565 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>37642.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-31900.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5742.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260811</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00580</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00580 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>78116.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-66200.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-11916.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261008</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>INV-00597</REFERENCE>
+            <PARTYLEDGERNAME>Stark Industries</PARTYLEDGERNAME>
+            <PARTYNAME>Stark Industries</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice INV-00597 from Stark Industries</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Stark Industries</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>128738.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Computer Hardware &amp; Capital Equipment</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-109100.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-19638.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250409</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2025-0037</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2025-0037 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>19824.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-16800.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3024.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250605</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2025-0042</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2025-0042 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>38704.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-32800.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5904.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20250809</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2025-0045</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2025-0045 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>34397.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-29150.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5247.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251008</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2025-0049</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2025-0049 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>43129.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-36550.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-6579.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20251206</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2025-0052</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2025-0052 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>27553.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-23350.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4203.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260211</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2026-0009</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2026-0009 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>31152.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-26400.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4752.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260410</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2026-0014</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2026-0014 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>38822.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-32900.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-5922.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260607</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2026-0019</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2026-0019 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>24249.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-20550.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-3699.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20260814</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2026-0026</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2026-0026 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>17169.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-14550.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-2619.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE xmlns:UDF="TallyUDF">
+          <VOUCHER VCHTYPE="Purchase" ACTION="Create" OBJVIEW="Accounting Voucher View">
+            <DATE>20261007</DATE>
+            <VOUCHERTYPENAME>Purchase</VOUCHERTYPENAME>
+            <REFERENCE>WE-2026-0032</REFERENCE>
+            <PARTYLEDGERNAME>Wayne Enterprises</PARTYLEDGERNAME>
+            <PARTYNAME>Wayne Enterprises</PARTYNAME>
+            <BASICBUYERNAME>Gentle Reminder</BASICBUYERNAME>
+            <NARRATION>Purchase Invoice WE-2026-0032 from Wayne Enterprises</NARRATION>
+            <!-- Sundry Creditor Credit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Wayne Enterprises</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>No</ISDEEMEDPOSITIVE>
+              <AMOUNT>31034.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Expense / Purchase Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Cloud Infrastructure &amp; Hosting Services</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-26300.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+            <!-- Input IGST Debit Ledger -->
+            <ALLLEDGERENTRIES.LIST>
+              <LEDGERNAME>Input IGST 18%</LEDGERNAME>
+              <ISDEEMEDPOSITIVE>Yes</ISDEEMEDPOSITIVE>
+              <AMOUNT>-4734.00</AMOUNT>
+            </ALLLEDGERENTRIES.LIST>
+          </VOUCHER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>

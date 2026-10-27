@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets and local environment files
+.env
+.env.*
+*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Dynamic test runs (keep sample-output committed)
+temp_output/
+test-output/

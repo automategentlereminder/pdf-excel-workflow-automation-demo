@@ -1,0 +1,26 @@
+Vendor Name
+Vendor GSTIN
+Vendor State
+Vendor State Code
+Bill Number
+Bill Date
+Due Date
+Payment Terms
+Buyer Name
+Buyer GSTIN
+Item Name
+HSN/SAC Code
+Quantity
+Unit
+Rate
+Line Amount
+Line Tax Rate
+SubTotal
+CGST Amount
+SGST Amount
+IGST Amount
+Total Tax
+Total
+Amount in Words
+Vendor Notes
+Terms & Conditions
